@@ -24,7 +24,7 @@ public class PlaneFinderService {
         this.repo = repo;
         this.generator = generator;
 
-        acURL = new URL("http://192.168.1.139/ajax/aircraft");
+        acURL = new URL("http://127.0.0.1/ajax/aircraft");
         om = new ObjectMapper();
     }
 
